@@ -133,6 +133,9 @@ header img{
     width: 18%;
  }
 
+ .card_selected{
+    border: 5px solid green;
+ }
 
 
 

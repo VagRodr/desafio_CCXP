@@ -57,13 +57,13 @@
                     <div id="texto_ingresso">
                         <h3>AINDA DÁ TEMPO DE GARANTIR O SEU, MAS CORRE!</h3>
                     </div>
-                        <img id="quinta" onmouseover="moveCard('#quinta')" onmouseout="moveCard('#quinta')" class="img" src="./img/quinta.svg" alt="">
-                        <img id="sexta" onmouseover="moveCard('#sexta')" onmouseout="moveCard('#sexta')" class="img" src="./img/sexta.svg" alt="">
-                        <img id="sabado" onmouseover="moveCard('#sabado')" onmouseout="moveCard('#sabado')" class="img" src="./img/sabado.svg" alt="">
-                        <img id="domingo" onmouseover="moveCard('#domingo')" onmouseout="moveCard('#domingo')" class="img" src="./img/domingo.svg" alt="">
+                        <img id="quinta" onclick="selectCard('#quinta')" onmouseover="moveCard('#quinta')" onmouseout="moveCard('#quinta')" class="img" src="./img/quinta.svg" alt="">
+                        <img id="sexta" onclick="selectCard('#sexta')" onmouseover="moveCard('#sexta')" onmouseout="moveCard('#sexta')" class="img" src="./img/sexta.svg" alt="">
+                        <img id="sabado" onclick="selectCard('#sabado')" onmouseover="moveCard('#sabado')" onmouseout="moveCard('#sabado')" class="img" src="./img/sabado.svg" alt="">
+                        <img id="domingo" onclick="selectCard('#domingo')" onmouseover="moveCard('#domingo')" onmouseout="moveCard('#domingo')" class="img" src="./img/domingo.svg" alt="">
                 </div>
                 <div id="btn">
-                    <button type="button" onclick="alert('Parabéns! nos encontramos no CCXP')">GARANTA O SEU</button>
+                    <button type="button" onclick="showSelectedCards()">GARANTA O SEU</button>
                 </div>
             </div>
         </section>

@@ -1,3 +1,5 @@
+const ingressos = [];
+
 function moveCard(selector){
     var element = document.querySelector(selector);
     element.classList.toggle("card_move");
@@ -9,7 +11,7 @@ function checkKeyboardCode(){
         var name = event.key;
         var code = event.code;
 
-        alert(`Tecla Pressionada ${name} /r/n key code value: ${code}`);
+        alert(`Tecla Pressionada ${name} \r\n key code value: ${code}`);
     }, false);
 }
 
@@ -52,6 +54,17 @@ function addKeyboardEventListeners(){
         }
 
     }, false);
+}
+
+function selectCard(selector){
+    var element = document.querySelector(selector);
+    element.classList.toggle("card_selected");
+    if(ingressos.includes(selector)) ingressos.pop(selector); 
+    else ingressos.push(selector);
+}
+
+function showSelectedCards(){
+    if(ingressos.length > 0) alert("Ingressos selecionados: " + ingressos);
 }
 
 addKeyboardEventListeners();
