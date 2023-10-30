@@ -24,31 +24,31 @@ function addKeyboardEventListeners(){
         var code = event.code;
 
         if(code == 'Digit1'){
-            ingresso1.classList.toggle("card-highlight");
-            ingresso2.classList.remove("card-highlight");
-            ingresso3.classList.remove("card-highlight");
-            ingresso4.classList.remove("card-highlight");
+            ingresso1.classList.toggle("card_move");
+            ingresso2.classList.remove("card_move");
+            ingresso3.classList.remove("card_move");
+            ingresso4.classList.remove("card_move");
         }
 
         if(code == 'Digit2'){
-            ingresso1.classList.remove("card-highlight");
-            ingresso2.classList.toggle("card-highlight");
-            ingresso3.classList.remove("card-highlight");
-            ingresso4.classList.remove("card-highlight");
+            ingresso1.classList.remove("card_move");
+            ingresso2.classList.toggle("card_move");
+            ingresso3.classList.remove("card_move");
+            ingresso4.classList.remove("card_move");
         }
 
         if(code == 'Digit3'){
-            ingresso1.classList.remove("card-highlight");
-            ingresso2.classList.remove("card-highlight");
-            ingresso3.classList.toggle("card-highlight");
-            ingresso4.classList.remove("card-highlight");
+            ingresso1.classList.remove("card_move");
+            ingresso2.classList.remove("card_move");
+            ingresso3.classList.toggle("card_move");
+            ingresso4.classList.remove("card_move");
         }
 
         if(code == 'Digit4'){
-            ingresso1.classList.remove("card-highlight");
-            ingresso2.classList.remove("card-highlight");
-            ingresso3.classList.remove("card-highlight");
-            ingresso4.classList.toggle("card-highlight");
+            ingresso1.classList.remove("card_move");
+            ingresso2.classList.remove("card_move");
+            ingresso3.classList.remove("card_move");
+            ingresso4.classList.toggle("card_move");
         }
 
     }, false);
