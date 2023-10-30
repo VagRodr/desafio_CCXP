@@ -63,7 +63,7 @@ header img{
 #texto_timer{
     text-align: center;
     color: #E33881;
-    margin: 10px 0px 10px 0px;
+    margin: 10px 0px 15px 0px;
 }
  video{
     margin-left: 20px;
@@ -74,6 +74,10 @@ header img{
     display: flex;
     align-items: center;
     margin-bottom: 30px;
+ }
+
+ #texto_ingresso{
+    margin-bottom: 20px;
  }
 
 #quinta{
@@ -96,7 +100,7 @@ header img{
  #btn{
     width: 35%;
     margin-right: 130px;
-    margin-top: 50px;
+    margin-top: 40px;
  }
 
  button{
@@ -117,5 +121,19 @@ header img{
     transform: translateY(-7px);
     transition-duration: 0.8s;
  }
+
+ footer{
+    background-color: #FFD900;
+    height: 10px;
+ }
+
+ .card_move{
+    transform: translateY(-10px);
+    transition-duration: 0.8s;
+    width: 18%;
+ }
+
+
+
 
 
